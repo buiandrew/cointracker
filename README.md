@@ -1,6 +1,8 @@
 # cointracker
 Howdy! Thanks for checking out my cointracker take home assignment. Please read below to understand the problem and my approach.
 
+_____________________________________________________________________________________________________________________________________________________________________________
+
 Instructions:
 Given a list of withdrawals and desposits, detect the likely transfers amongst them.
 
@@ -20,7 +22,7 @@ Expected output:
 [
 	('tx_id_1', 'tx_id_3'),
 ]
-
+_____________________________________________________________________________________________________________________________________________________________________________
 
 Approach:
 
@@ -29,4 +31,6 @@ I currently do not have JSON parsing libraries installed, so I went with declari
 Future approach:
 
 To build upon this, I would explore a way to develop so that I do not need to perform this algorithm in O(n^2) time. There may be a way to store each transaction into a hashset, and query the hashset for a suitable match, so the lookup is quicker than looking at each other transaction.
+
+_____________________________________________________________________________________________________________________________________________________________________________
 
